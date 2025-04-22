@@ -1,2 +1,2 @@
 # literacy
-<a href="https://github.com/Yoru207/literacy/main/index.html">htmlへ</a>
+<a href="https://Yoru207.github.io/literacy/main/index.html">htmlへ</a>
