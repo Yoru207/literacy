@@ -1,0 +1,23 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+/* スマホサイズ用の調整 */
+@media (max-width: 600px) {
+    body{
+        padding: 10px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}
