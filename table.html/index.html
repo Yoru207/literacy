@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千葉県の天気予報</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .weather-icon {
+            width: 50px; /* アイコンのサイズ調整 */
+            height: 50px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <table id="weatherTable">
+        <caption>千葉県の天気予報</caption>
+        <thead>
+            <tr>
+                <th>日付</th>
+                <th>天気</th>
+                <th>気温（最高/最低）</th>
+                <th>降水確率</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>今日</td>
+                <td id="todayWeather"></td>
+                <td id="todayTemp"></td>
+                <td id="todayRainProb"></td>
+            </tr>
+            <tr>
+                <td>明日</td>
+                <td id="tomorrowWeather"></td>
+                <td id="tomorrowTemp"></td>
+                <td id="tomorrowRainProb"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
