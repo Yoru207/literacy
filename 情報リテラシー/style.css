@@ -1,0 +1,23 @@
+        body {
+            background-color: #ffffff; /* 背景カラー */
+            color: #333; /* 文字色（無彩色なのでカラーテーマに含めていません） */
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        header {
+            background-color: #3498db; /* メインカラー */
+            color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: #fd1010; /* アクセントカラー */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            color: #333;
+        }
